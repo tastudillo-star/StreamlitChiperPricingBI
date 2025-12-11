@@ -1,0 +1,81 @@
+# ==========================
+#  Python
+# ==========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# PyInstaller
+*.spec
+dist/
+build/
+
+# Logs
+*.log
+
+# Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# ==========================
+#  Streamlit
+# ==========================
+
+# Secretos locales (NO subir nunca)
+.streamlit/secrets.toml
+
+# Config local
+.streamlit/config.toml
+
+# Directorio temporal de Streamlit
+.streamlit/**/static/
+
+# ==========================
+#  IDEs
+# ==========================
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# ==========================
+#  Sistema Operativo
+# ==========================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Linux
+*~
+
+# ==========================
+#  Otros
+# ==========================
+
+# Archivos de datos temporales
+*.csv~
+*.tmp
+
+# Compilaciones o artefactos
+*.tar.gz
+*.zip
