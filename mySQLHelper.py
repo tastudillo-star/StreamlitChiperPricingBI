@@ -6,11 +6,12 @@ import numpy as np
 from tornado.httputil import parse_body_arguments
 from tqdm import tqdm
 import re
+import streamlit as st
 
-HOST = '...'
-USER = ''
-PASSWORD = '*'
-DATABASE = ''
+HOST = st.secrets["HOST"]
+USER = st.secrets["USER"]
+PASSWORD = st.secrets["PASSWORD"]
+DATABASE = st.secrets["DATABASE"]
 
 class MySQLBulkLoader:
     """

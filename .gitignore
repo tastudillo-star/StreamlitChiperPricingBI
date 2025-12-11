@@ -34,7 +34,7 @@ build/
 # ==========================
 
 # Secretos locales (NO subir nunca)
-.streamlit/secrets.toml
+secrets.toml
 
 # Config local
 .streamlit/config.toml
