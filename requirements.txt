@@ -1,0 +1,7 @@
+streamlit
+pandas
+mysql-connector-python>=9.1.0
+# lo demás que uses:
+# st-aggrid
+# plotly
+# etc.
