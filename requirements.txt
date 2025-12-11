@@ -1,6 +1,7 @@
 streamlit
 pandas
 mysql-connector-python>=9.1.0
+tqdm
 # lo demás que uses:
 # st-aggrid
 # plotly
